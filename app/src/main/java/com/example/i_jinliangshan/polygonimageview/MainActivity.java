@@ -19,9 +19,6 @@ public class MainActivity extends Activity {
 
         init();
 
-        PolygonImageView piv = (PolygonImageView) findViewById(R.id.piv);
-        piv.getEdgeNum();
-        piv.setEdgeNum(6);
     }
 
     private void init() {
